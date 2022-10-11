@@ -21,7 +21,7 @@ namespace ImplementStackUsingQueue
 
         public void Push(int input)
         {
-            //Enqueue pushed item to q2.
+            //Enqueue pushes item to q2.
             q2.Enqueue(input);
 
             //Transfer all q1 items to q2, newly pushed items stay at the beginning of the queue/Stack.
